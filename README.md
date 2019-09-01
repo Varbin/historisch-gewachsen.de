@@ -11,6 +11,7 @@ This site is live at https://historisch-gewachsen.de.
 ## Run it locally
 
 You can run *historisch-gewachsen.de* locally. It is written in Python and uses Flask.
+For the pre-made deploy-script gunicorn is used as webserver.
 
 To run it on your computer, follow these steps:
 
