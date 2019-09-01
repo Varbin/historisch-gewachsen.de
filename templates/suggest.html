@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='historisch-gewachsen.css') }}">
+
+    <link rel="alternate" href="{{ url_for("suggest", lang=lang) }}" hreflang="x-default">
+    <link rel="alternate" href="{{ url_for("suggest", lang="en") }}" hreflang="en">
+    <link rel="alternate" href="{{ url_for("suggest", lang="de") }}" hreflang="de">
+
+    <title>{{ "Historisch gewachsen! Warum?" if lang == "de" else "Historical grown! Why?" }}</title>
+</head>
+<body>
+    <main>
+        {% if lang == "de" %}
+            <h1>Historisch gewachsen, weil...</h1>
+        {% else %}
+            <h1>Historical grown, because...</h1>
+        {% endif %}
+
+        <p>
+            {% if thanks %}
+                {{ "Danke!" if lang=="de" else "Thanks!" }}
+            {% endif %}
+        </p>
+
+        <form method="POST">
+            <textarea name="reason"></textarea><br>
+            <input type="submit" value="{{ "Grund vorschlagen" if lang=="de" else "Suggest reason" }}">
+        </form>
+
+        <p>
+            {% if lang == "de" %}
+                Bitte keine personenbezogenen Daten absenden.
+            {% else %}
+                Please do not submit personal data.
+            {% endif %}
+        </p>
+
+    </main>
+
+    {% include "footer.html" %}
+</body>
+</html>

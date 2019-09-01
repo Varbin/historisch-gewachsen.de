@@ -1,0 +1,5 @@
+*.sqlite
+*.py[co]
+__pycache__/
+venv/
+.idea/

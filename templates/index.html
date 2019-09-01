@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='historisch-gewachsen.css') }}">
+
+    <link rel="alternate" href="{{ url_for("index", lang=lang) }}" hreflang="x-default">
+    <link rel="alternate" href="{{ url_for("index", lang="en") }}" hreflang="en">
+    <link rel="alternate" href="{{ url_for("index", lang="de") }}" hreflang="de">
+
+    <title>{{ "Historisch gewachsen! Warum?" if lang == "de" else "Historical grown! Why?" }}</title>
+</head>
+<body>
+    <main>
+        {% if lang == "de" %}
+            <h1>Historisch gewachsen, weil...</h1>
+        {% else %}
+            <h1>Historical grown, because...</h1>
+        {% endif %}
+
+        <p id="quote">
+            {# Allow HTML for quotes. #}
+            <q>{{ quote|safe }}</q>
+        </p>
+
+        <form name="newQuote">
+            {% if lang == "de" %}
+                <input type="submit" value="Weiterer Grund">
+            {% else %}
+                <input type="submit" value="Another reason">
+            {% endif %}
+        </form>
+    </main>
+
+
+    {% include "footer.html" %}
+
+
+    <script nonce="{{ nonce }}">
+        let url = "{{ url_for("api", lang=lang, _external=True) }}";
+
+        {% if lang == "de" %}
+        let error_msg = "<q>ein Fehler aufgetreten ist. Sorry.</q>";
+        {% else %}
+        let error_msg = "<q>of an error. Sorry.</q>";
+        {% endif %}
+
+
+        function getQuote() {
+            fetch(url)
+                .then(function (response) {
+                    return response.json()
+                })
+                .then(function (json) {
+                    document.getElementById("quote").innerHTML = "<q>" + json["quote"] + "</q>"
+                })
+                .catch(function (error) {
+                    document.getElementById("quote").innerHTML = error_msg
+                });
+
+            return false;
+        }
+
+        document.getElementsByName("newQuote")[0].onsubmit = getQuote;
+    </script>
+</body>
+</html>

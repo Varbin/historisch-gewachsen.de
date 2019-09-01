@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Noto Sans', 'Open Sans', 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    width: 50%;
+
+    overscroll-behavior-y: contain;
+
+}
+
+footer {
+    padding-top: 10px;
+}
+
+q {
+    quotes: "\201C" "\201D";
+}
+
+#quote {
+    font-style: italic;
+    font-size: larger;
+
+    line-break: normal;
+
+    padding: 10px;
+}
+
+footer p {
+    padding-top: 20px;
+}
+
+textarea {
+    max-width: 960px;
+    min-width: 70%;
+    min-height: 400px;
+    max-height: 50%
+}

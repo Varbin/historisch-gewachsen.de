@@ -1,0 +1,6 @@
+we fired the developers.
+there is no space left on the servers.
+the software is written for Oracle 8.
+the software was developed with Windows NT 4.0
+we still use Borland Delphi.
+the boss thinks tests are only for bad developers.
