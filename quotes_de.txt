@@ -8,3 +8,6 @@ die Software unter Windows NT entwickelt wurde.
 noch immer Borland Delphi genutzt wird.
 wir noch alte Wartungsverträge haben.
 noch Debian 4 auf den Servern läuft.
+es ja noch funktioniert.
+die Software nicht mehr weiterentwickelt wird.
+die Software durch einen Praktikanten in vier Wochen programmiert wurde - ohne Dokumentation.
