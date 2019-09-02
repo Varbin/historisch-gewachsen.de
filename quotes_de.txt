@@ -1,5 +1,5 @@
 wir die Entwickler gekündigt haben die sich mit der Software auskannten.
-der Chef denkt, Softwaretests wären nur etwas für schlechte
+der Chef denkt, Softwaretests wären nur etwas für schlechte Entwickler.
 wir das schon immer so gemacht haben.
 der Speicher gerade voll ist!
 wir zwischenzeitlich die Entwicklung ausgelagert haben.
