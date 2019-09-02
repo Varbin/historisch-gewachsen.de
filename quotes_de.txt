@@ -1,13 +1,18 @@
 wir die Entwickler gekündigt haben die sich mit der Software auskannten.
+der Chef denkt, Softwaretests wären nur etwas für schlechte
 wir das schon immer so gemacht haben.
 der Speicher gerade voll ist!
 wir zwischenzeitlich die Entwicklung ausgelagert haben.
-wir gerade erst von analogen Telefonen migriert sind.
+wir gerade erst von analogen Modems migriert sind.
 die Software für Oracle 8 konzipiert wurde.
 die Software unter Windows NT entwickelt wurde.
 noch immer Borland Delphi genutzt wird.
 wir noch alte Wartungsverträge haben.
 noch Debian 4 auf den Servern läuft.
-es ja noch funktioniert.
+es ja noch 'funktioniert'.
 die Software nicht mehr weiterentwickelt wird.
-die Software durch einen Praktikanten in vier Wochen programmiert wurde - ohne Dokumentation.
+die Software ein Praktikant in vier Wochen programmiert hat - ohne Dokumentation.
+die QA erst am Ende des Projektes ohne verbleibendes Budget integriert wurde.
+der Kunde es ja so wollte.
+die Software eh 'bald' abgelöst wird.
+wer braucht denn schon Dokumentation?
