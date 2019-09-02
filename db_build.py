@@ -2,6 +2,7 @@ import sqlite3
 
 
 def update_table(conn, table, quotefile):
+    conn.execute(f"DROP TABLE IF EXISTS {table};")
     conn.execute(f"CREATE TABLE IF NOT EXISTS {table} (quote varchar UNIQUE);")
     conn.commit()
 
