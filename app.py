@@ -28,7 +28,8 @@ def get_quote(lang):
 def index(lang=None):
     if lang is None:
         lang = request.accept_languages.best_match(['en', 'de'])
-    elif lang not in ("de", "en"):
+
+    if lang not in ("de", "en"):
         return redirect(url_for("index", lang="en"))
 
     nonce = secrets.token_hex(32)
