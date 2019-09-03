@@ -8,9 +8,9 @@ who needs documentation?
 we just migrated from analogue modems.
 of old contracts.
 the servers are still running on Debian 4.
-it still 'works'.
+it still works.
 the software isn't in development anymore.
 an intern has written the software in vor weeks - without documentation.
 QA was done just before release. Unfortunately no budget was left.
 the customer wanted it like that.
-it will be replaced 'soon'.
+it will be replaced soon.

@@ -9,10 +9,10 @@ die Software unter Windows NT entwickelt wurde.
 noch immer Borland Delphi genutzt wird.
 wir noch alte Wartungsverträge haben.
 noch Debian 4 auf den Servern läuft.
-es ja noch 'funktioniert'.
+es ja noch funktioniert.
 die Software nicht mehr weiterentwickelt wird.
 die Software ein Praktikant in vier Wochen programmiert hat - ohne Dokumentation.
 die QA erst am Ende des Projektes ohne verbleibendes Budget integriert wurde.
 der Kunde es ja so wollte.
-die Software eh 'bald' abgelöst wird.
+die Software eh bald abgelöst wird.
 wer braucht denn schon Dokumentation?
