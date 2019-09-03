@@ -14,4 +14,3 @@ an intern has written the software in vor weeks - without documentation.
 QA was done just before release. Unfortunately no budget was left.
 the customer wanted it like that.
 it will be replaced 'soon'.
-who needs documentation?
