@@ -14,3 +14,5 @@ an intern has written the software in four weeks - without documentation.
 QA was done just before release. Unfortunately no budget was left.
 the customer wanted it like that.
 it will be replaced soon.
+the boss <q>accepted</q> the security risk.
+we use double ROT-13 as encryption.
