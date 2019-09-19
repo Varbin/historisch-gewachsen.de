@@ -9,14 +9,14 @@
     <link rel="alternate" href="{{ url_for("index", lang="en") }}" hreflang="en">
     <link rel="alternate" href="{{ url_for("index", lang="de") }}" hreflang="de">
 
-    <title>{{ "Historisch gewachsen! Warum?" if lang == "de" else "Historical grown! Why?" }}</title>
+    <title>{{ "Historisch gewachsen! Warum?" if lang == "de" else "Historically grown! Why?" }}</title>
 </head>
 <body>
     <main>
         {% if lang == "de" %}
             <h1>Historisch gewachsen, weil...</h1>
         {% else %}
-            <h1>Historical grown, because...</h1>
+            <h1>Historically grown, because...</h1>
         {% endif %}
 
         <p id="quote">
