@@ -10,16 +10,12 @@ body {
     text-align: center;
     width: 50%;
 
-    overscroll-behavior-y: contain;
+    /*overscroll-behavior-y: contain;*/
 
 }
 
 footer {
     padding-top: 10px;
-}
-
-q {
-    quotes: "\201C" "\201D";
 }
 
 #quote {
@@ -30,6 +26,15 @@ q {
 
     padding: 10px;
 }
+
+#quote q {
+    quotes: "\201C" "\201D";
+}
+
+#quote q q {
+    quotes: "\2018" "\2019";
+}
+
 
 footer p {
     padding-top: 20px;
