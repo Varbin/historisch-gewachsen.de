@@ -19,3 +19,4 @@ wer braucht denn schon Dokumentation?
 der Chef das Sicherheitsrisiko als 'akzeptabel' ansieht.
 <a href="https://youtu.be/LR0dn_Qgmcg?t=1810">niemand wirklich Bock hat, Nischen-ERP-Systeme zu schreiben</a>.
 doppeltes ROT13 anstelle von <q>zeitgemäßer Verschlüsselung</q> verwendet wird.
+wir für unsere Netzwerktechnik und Server nur günstig erlangte Altbestände anderer Firmen verwenden.
